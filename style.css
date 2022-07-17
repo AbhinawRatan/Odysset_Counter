@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+   background-position: centre center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+margin: 0;}
+h1{
+    font-family: 'Roboto',sans-serif;
+
+    font-size: 4rem;
+    color:rgb(254,206,168);
+    align-items: center;
+    margin-top: 5rem; ;
+   
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin:0 2rem;
+    align-items: center;
+    color: #5864a6;
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 80px #5864a6,
+      0 0 90px #5864a6,
+      0 0 100px #5864a6,
+      0 0 150px #5864a6
+}
+.countdown-container{
+    display: flex;
+    color:rgb(254,206,168) ;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: centre;
+}
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 40px #fecea8,
+      0 0 80px #fecea8,
+      0 0 90px #fecea8,
+      0 0 100px #fecea8,
+      0 0 150px #fecea8
+}
+#videoBG {
+    position: fixed;
+    z-index: -1;
+    
+}
